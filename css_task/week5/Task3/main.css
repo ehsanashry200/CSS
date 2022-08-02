@@ -1,0 +1,12 @@
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  }
+.ass3{
+    width: 600px;
+    font-weight: bold;
+    margin: 20px auto;
+    color: var(--mainColor, red);
+    padding: var(--mainPadding);
+    border: 3px solid var(--mainColor, black);
+}
