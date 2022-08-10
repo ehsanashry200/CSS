@@ -1,0 +1,30 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    position: relative;
+  width: 600px;
+    margin: 10px auto;
+}
+input{
+    display: block;
+    margin: 10px auto;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    border: none;
+    caret-color: red;
+}
+div::before{
+    content: "";
+    height: 5px;
+    position: absolute;
+    width: 600px;
+    top: 55px;
+    left: 0;
+    background-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+}
+input:focus{
+    outline: none;
+}

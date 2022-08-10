@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.task {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px auto;
+    gap: 15px 15px;
+  }
+  .task div{
+      background-color: #607d8b;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+  }
+  .task .one::before{
+    content: "Element 1";
+  }
+  .task .two::before{
+      content: "Element 2";
+  }
+  .task .three::before{
+    content: "Element 3";
+}
+.task .four::before{
+    content: "Element 4";
+}
+.task .five::before{
+    content: "Element 5";
+}
+.task .six::before{
+    content: "Element 6";
+}

@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nana {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px 15px;
+}
+.nana div{
+    background-color: #2196f3;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nana .eight{
+    grid-area: 1 / 1 / 2 / 6;
+}
+.nana .two{
+    grid-area: 2 / 1 / 3 / 4;
+}
+.nana .three{
+    grid-area: 2 / 4 / 3 / 6;
+}
+.nana .four{
+    grid-area: 3 / 1 / 4 / 3;
+}
+.nana .six{
+    grid-area: 4 / 1 / 5 / 3;
+}
+.nana .seven{
+    grid-area: 5 / 1 / 6 / 3;
+}
+.nana .five{
+    grid-area: 3 / 3 / 6 / 6;
+}
+.nana .one{
+    grid-area: 6 / 1 / 7 / 6;
+}
